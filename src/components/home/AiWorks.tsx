@@ -81,13 +81,13 @@ export function AiWorks() {
                 </p>
 
                 {/* 系统界面截图占位/封面 */}
-                <div className={cn("relative mt-4 h-44 overflow-hidden rounded-btn border border-white/10 bg-gradient-to-br", a.bg)}>
+                <div className={cn("relative mt-4 h-44 overflow-hidden rounded-btn border border-white/10 bg-gradient-to-br will-change-transform", a.bg)}>
                   <div className="pointer-events-none absolute inset-0 bg-tech-grid-dark opacity-20" aria-hidden />
                   {w.coverImage ? (
                     <img
                       src={w.coverImage}
                       alt={`${w.title} 系统界面预览`}
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover [transform:translateZ(0)]"
                       loading="lazy"
                     />
                   ) : (

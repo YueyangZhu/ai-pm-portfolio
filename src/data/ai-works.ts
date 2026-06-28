@@ -90,7 +90,7 @@ export const aiWorks: WorkCard[] = [
 ];
 
 export const aiWorkDisclaimer =
-  "以下项目均为个人独立设计与开发的 AI 产品 Demo，用于展示产品设计、工作流编排与 Vibe Coding 实践能力，不属于本人过往公司的真实商业项目。";
+  "以下项目均为个人独立设计与开发的 AI 产品 Demo，用于展示产品设计、工作流编排与 Vibe Coding 实践能力，不属于本人过往公司的真实商业项目";
 
 export const footerDisclaimer =
   "作品集中的 AI Demo 主要使用模拟业务流程和演示数据，用于展示产品设计与 Vibe Coding 实践能力。";

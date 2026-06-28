@@ -20,7 +20,7 @@ export function Contact() {
       <div className="relative">
         <SectionHeading eyebrow="06 CONTACT" title="期待与你交流" align="center" light>
           <p className="mx-auto mt-4 max-w-xl text-center text-base leading-relaxed text-white/70">
-            目前正在寻找企业 AI 产品经理、AI 应用产品经理及企业数字化相关机会。
+            目前正在寻找企业 AI 产品经理、AI 应用产品经理及企业数字化相关机会
           </p>
         </SectionHeading>
 
