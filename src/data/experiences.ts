@@ -21,7 +21,7 @@ export const experiences: Experience[] = [
     companyDesc: "省属国企广东省交通集团全资三级子公司，200 人以上",
     role: "产品经理",
     period: "2025.11 — 2026.05",
-    industry: "企业数字化转型 / 交通集团",
+    industry: "企业数字化转型 / 经营决策",
     responsibilities: [
       "主导集团总部多个数字化转型产品及项目全流程建设，兼任项目经理与解决方案角色",
       "主导多个集团成员企业数字化转型产品及项目全流程建设，兼任项目经理、解决方案与售前角色",
@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     companyDesc: "市属国企广州数字科技集团三级子公司，1000 人以上",
     role: "产品主管",
     period: "2023.04 — 2025.11",
-    industry: "企业数字化 / 协同办公与经营决策",
+    industry: "企业数字化转型 / 协同办公 / 经营决策",
     responsibilities: [
       "主导集团总部级数字化产品矩阵建设，从 0 到 1 深度建设多个关键业务系统",
       "独立负责从业务需求深度调研、竞品分析、功能规划、供应商选型与管理、原型设计、PRD 编写到测试验收、上线部署、推广运营的全流程",
@@ -59,7 +59,7 @@ export const experiences: Experience[] = [
     companyDesc: "深交所上市，股票代码 002929，10000 人以上",
     role: "产品经理助理",
     period: "2020.05 — 2023.03",
-    industry: "供应链 / ERP 与合作伙伴管理",
+    industry: "供应链 ERP 协同",
     responsibilities: [
       "独立负责供应链系统（物资管理、房屋、车辆、烟酒、合作伙伴管理）的需求调研、撰写、评审、研发跟进、验收测试与上线跟踪优化",
       "负责近 200 条 OA 审批流程配置及用户角色权限管理",
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     companyDesc: "独角兽企业，500-999 人",
     role: "产品专员",
     period: "2019.07 — 2020.02",
-    industry: "财税 SaaS / 智能硬件",
+    industry: "智能硬件 / ODM",
     responsibilities: [
       "参与从 0 到 1 搭建开票机器人 ODM 商业闭环",
       "使用 Axure 设计微信小程序设备状态监控原型并跟进开发验证",

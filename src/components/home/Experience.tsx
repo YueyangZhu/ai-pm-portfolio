@@ -76,7 +76,10 @@ function TimelineItem({
             </span>
           </div>
 
-          <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-soft">
+          <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-soft">
+            <span>{exp.companyDesc}</span>
+          </div>
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-soft">
             <span className="inline-flex items-center gap-1.5 font-semibold text-brand">
               <Building2 className="h-4 w-4 text-accent" aria-hidden />
               {exp.role}
@@ -84,7 +87,6 @@ function TimelineItem({
             <span aria-hidden className="text-ink-muted">·</span>
             <span>{exp.industry}</span>
           </div>
-          <p className="mt-1.5 text-xs text-ink-soft">{exp.companyDesc}</p>
 
           {/* 主要职责 */}
           <div className="mt-5">
