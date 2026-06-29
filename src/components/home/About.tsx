@@ -44,7 +44,7 @@ export function About() {
             </div>
             <div className="mt-5 text-center">
               <div className="text-2xl font-bold text-brand">{profile.name}</div>
-              <div className="mt-1 text-sm font-semibold text-accent">{profile.title}</div>
+              <div className="mt-1 text-sm font-semibold text-ink">产品经理 · 30岁</div>
             </div>
           </div>
 
@@ -58,6 +58,8 @@ export function About() {
               <InfoTag icon={<MapPin className="h-3.5 w-3.5" />} label="现居" value={profile.contact.city} />
               <InfoTag icon={<GraduationCap className="h-3.5 w-3.5" />} label="学历" value="湖北工业大学 · 本科" />
               <InfoTag icon={<BriefcaseBusiness className="h-3.5 w-3.5" />} label="履历" value="大型国企 · 上市公司 · 独角兽" />
+              <InfoTag icon={<Award className="h-3.5 w-3.5" />} label="认证" value="系统集成项目管理工程师" />
+              <InfoTag icon={<Award className="h-3.5 w-3.5" />} label="认证" value="工信部 AI 产品经理（中级）" />
             </div>
 
             {/* 4 个职业特征卡片 */}
